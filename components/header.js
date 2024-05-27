@@ -34,8 +34,9 @@ headerTemplate.innerHTML = `
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html">Jonas F. L.</a></li>
         <li><a href="z01_work_experience.html">Work experience</a></li>
+		<li><a href="z02_education.html">Education</a></li>
       </ul>
     </nav>
   </header>

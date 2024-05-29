@@ -1,4 +1,4 @@
-const headerTemplate = document.createElement('template');
+const headerTemplate = document.createElement("template");
 
 headerTemplate.innerHTML = `
   <style>
@@ -8,6 +8,7 @@ headerTemplate.innerHTML = `
       align-items: center;
       justify-content: center;
       background-color:  #0a0a23;
+      font
     }
 
     ul {
@@ -34,9 +35,10 @@ headerTemplate.innerHTML = `
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">Jonas F. L.</a></li>
-        <li><a href="z01_work_experience.html">Work experience</a></li>
-		<li><a href="z02_education.html">Education</a></li>
+        <li><a href="index.html">About</a></li>
+        <li><a href="work_experience.html">Work</a></li>
+	    	<li><a href="education.html">Education</a></li>
+        <li><a href="publications.html">Publications</a></li>
       </ul>
     </nav>
   </header>
@@ -48,10 +50,10 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: 'closed' });
+    const shadowRoot = this.attachShadow({ mode: "closed" });
 
     shadowRoot.appendChild(headerTemplate.content);
   }
 }
 
-customElements.define('header-component', Header);
+customElements.define("header-component", Header);

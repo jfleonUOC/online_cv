@@ -3,34 +3,36 @@ const headerTemplate = document.createElement("template");
 headerTemplate.innerHTML = `
   <style>
     nav {
-      height: 40px;
+      // height: 40px;
       display: flex;
       align-items: center;
       justify-content: center;
       background-color:  #0a0a23;
-      font
     }
-
-    ul {
-      padding: 0;
-    }
-    
-    ul li {
+    li {
       list-style: none;
       display: inline;
+      height: 30px;
     }
-    
     a {
       font-weight: 700;
       margin: 0 25px;
       color: #fff;
       text-decoration: none;
     }
-    
     a:hover {
       padding-bottom: 5px;
       box-shadow: inset 0 -2px 0 0 #fff;
     }
+    @media screen and (max-width: 600px) {
+    li {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    }
+}
+
   </style>
   <header>
     <nav>

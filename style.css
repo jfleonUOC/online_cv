@@ -11,37 +11,12 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+/* Style the topnav in header.js */
+/* Style the footer in footer.js */
 
 /* Style the content */
 .content {
   background-color: #ddd;
-  padding: 10px;
-}
-
-/* Style the footer */
-.footer {
-  background-color: #f1f1f1;
   padding: 10px;
 }
 
@@ -105,11 +80,24 @@ img.profile_picture {
   height: 100%;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
 }
 
-.container-2 {
+.container-about {
   height: 100%;
+  width: 70%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-page {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .drawing-board {

@@ -3,15 +3,21 @@ const footerTemplate = document.createElement("template");
 footerTemplate.innerHTML = `
   <style>
     footer {
-      height: 60px;
-      padding: 0 10px;
+      // height: 60px;
+      // padding: 0 10px;
+      padding: 10px;
       list-style: none;
       display: flex;
       flex-shrink: 0;
       justify-content: space-between;
       align-items: center;
       background-color: #f1f1f1;
-      font-family: "Courier New", Courier, monospace;
+    }
+    @media screen and (max-width: 600px) {
+    footer {
+      float: none;
+      display: block;
+      text-align: center;
     }
   </style>
   <footer>

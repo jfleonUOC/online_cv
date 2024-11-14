@@ -36,7 +36,7 @@ footerTemplate.innerHTML = `
       background-color: #f8f8ff;
       text-align: center;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1200px) {
     footer {
       float: none;
       display: block;

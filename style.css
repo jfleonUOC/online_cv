@@ -32,14 +32,14 @@ p {
 
 .intro {
   margin-bottom: 20px;
-  text-align: justify;
-  text-justify: inter-word;
+  /* text-align: justify; */
+  /* text-justify: inter-word; */
 }
 
 .intro-2 {
   margin-bottom: 20px;
-  text-align: justify;
-  text-justify: inter-word;
+  /* text-align: justify; */
+  /* text-justify: inter-word; */
   margin-left: 10px;
 }
 
@@ -137,7 +137,7 @@ img.profile_picture {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1220px) {
   .container-about {
     float: none;
     display: block;

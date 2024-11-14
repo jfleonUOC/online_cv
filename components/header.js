@@ -26,7 +26,7 @@ headerTemplate.innerHTML = `
       padding-bottom: 1px;
       box-shadow: inset 0 -4px 0 0 #ff0000;
     }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1200px) {
     li {
       float: none;
       display: block;

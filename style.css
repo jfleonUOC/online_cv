@@ -19,6 +19,30 @@ p {
   margin-bottom: -10px;
 }
 
+.presentation {
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.intro-2 {
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 10px;
+}
+
 a {
   font-weight: 700;
   /* margin: 0 25px; */

@@ -41,6 +41,7 @@ p {
   /* text-align: justify; */
   /* text-justify: inter-word; */
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 a {
@@ -153,6 +154,11 @@ img.profile_picture {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container-about {
+  height: 100%;
+  width: 90%;
 }
 
 .drawing-board {

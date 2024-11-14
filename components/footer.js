@@ -47,6 +47,7 @@ footerTemplate.innerHTML = `
     <p>Mail: Jo Fu Le 8 at gmail</p>
     <p><a href="https://www.linkedin.com/in/jonasfuentesleon" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
     <p><a href="https://github.com/jfleonUOC/" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    <p><a href="https://jfleonuoc.github.io/online_cv/images/CV_JFL_20241114.pdf" target="_blank">Download CV.pdf</a></p>
     <p>Last update: November 2024.</p>
   </footer>
     <div class="license">

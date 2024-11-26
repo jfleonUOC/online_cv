@@ -171,7 +171,10 @@ img.profile_picture {
 
 .element_card {
   background-color: #ddd;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
+  border-left-style: solid;
+  border-left-color: #f1f1f1;
+  padding-left: 3%;
 }
 
 .card_sub_title {

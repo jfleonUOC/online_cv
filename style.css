@@ -138,6 +138,31 @@ img.profile_picture {
   align-items: center;
 }
 
+.tinybird_counter {
+  display: flex;
+  background-color: #27f795;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.tb_elem {
+  margin: 4px;
+}
+
+button {
+  height: 30px;
+  background-color: #25283d;
+  border-radius: 10%;
+  color: white;
+  border: none;
+}
+
+.count_text {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1220px) {
   .container-about {
     float: none;

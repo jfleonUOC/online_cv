@@ -39,10 +39,10 @@ headerTemplate.innerHTML = `
   <header>
     <nav>
       <ul>
-        <li><a href="index.html">About Me</a></li>
-        <li><a href="work_experience.html">Work</a></li>
-	    	<li><a href="education.html">Education</a></li>
-        <li><a href="publications.html">Publications</a></li>
+        <li><a href="index.html" class="int_link">About Me</a></li>
+        <li><a href="work_experience.html" class="int_link">Work</a></li>
+	    	<li><a href="education.html" class="int_link">Education</a></li>
+        <li><a href="publications.html" class="int_link">Publications</a></li>
       </ul>
     </nav>
   </header>

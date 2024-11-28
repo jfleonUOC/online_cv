@@ -145,6 +145,10 @@ img.profile_picture {
   justify-content: center;
   text-align: center;
   padding: 10px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #ddd;
+  font-size: small;
 }
 
 .tb_elem {
@@ -152,11 +156,23 @@ img.profile_picture {
 }
 
 button {
-  height: 30px;
+  height: 3em;
+  width: 6em;
   background-color: #25283d;
-  border-radius: 10%;
+  border-radius: 5px;
   color: white;
   border: none;
+  margin: 3px;
+  font-size: small;
+}
+
+button:hover {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+button:active {
+  transform: translateY(2px);
 }
 
 .count_text {
